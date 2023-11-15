@@ -1,0 +1,15 @@
+streamlit
+pandas
+openai
+gspread
+folium
+streamlit_folium
+numpy
+requests
+json
+plotly.express
+urllib3
+matplotlib
+plotly
+langchain
+os
