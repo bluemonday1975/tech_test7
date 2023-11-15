@@ -11,4 +11,3 @@ urllib3
 matplotlib
 plotly
 langchain
-os
