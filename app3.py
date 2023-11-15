@@ -14,7 +14,7 @@ import plotly.graph_objects as go
 st.title("Bannai Bar Dashboard") # タイトルが出力される
 st.write("本日の参加者一覧")
 #--
-SS_ID = '1rA7PoDGOSAcF6bxTVgc-a_TSa6P0xwcgyoqjEZuQAWI'
+SS_ID = ''
 SHEET_NAME = 'アカウント情報_分析用'
 
 scopes = [
@@ -23,7 +23,7 @@ scopes = [
 ]
 
 # Credentials 情報を取得
-credentials = ServiceAccountCredentials.from_json_keyfile_name(r'/Users/satorumoriaki/Documents/MyPython/webapp/03_webアプリ作成/mindful-carport-404614-cc7ad1ea8df0.json', scopes)
+credentials = ', scopes)
 
 #OAuth2のクレデンシャルを使用してGoogleAPIにログイン
 gc = gspread.authorize(credentials)
