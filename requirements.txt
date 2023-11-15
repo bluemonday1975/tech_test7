@@ -6,7 +6,6 @@ folium
 streamlit_folium
 numpy
 requests
-json
 plotly.express
 urllib3
 matplotlib
